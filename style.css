@@ -4,3 +4,22 @@
     margin: 0;
 }
 
+/* Navigations bar */
+nav{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1; /* Lægger øverst */
+    top: 0;
+    left: 0;
+    background-color: #EFE9DB;
+    overflow-x: hidden; /* Forbliver hvor den er hvis der scrolles. */
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Skubber alt i main til højre */
+main{
+    margin-left: 190px;
+}
