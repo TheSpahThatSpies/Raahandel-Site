@@ -17,9 +17,19 @@ nav{
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    outline: #3A3838;
+    outline-style: solid;
+    outline-width: 1px;
 }
 
 /* Skubber alt i main til højre */
 main{
     margin-left: 190px;
+}
+
+.sidebar-img{
+    height: 80px;
+    width: auto;
+    margin-left: 40px;
+    margin-top: 20px;
 }
