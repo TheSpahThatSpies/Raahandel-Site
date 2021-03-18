@@ -1,9 +1,5 @@
  
- .logo {
-    width: auto;
-    height: 50px;
- }
- 
+
  
  .container {
     display: grid;
@@ -17,6 +13,11 @@
   
   .header {
     grid-area: head;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
   }
   
   .sidebar {
@@ -26,8 +27,22 @@
   .content {
     grid-area: main;
   }
-  
-  
+
+   .logo {
+    width: auto;
+    height: 50px;
+    margin-right: 900px;
+ }
+ 
+ 
+  .nyheder {
+      display: flex;
+      flex-direction: row;
+      margin-top: 20px;
+  }
+
+
+
   /* Generic styles for demo purposes
   -------------------------------------- */
   .container {
