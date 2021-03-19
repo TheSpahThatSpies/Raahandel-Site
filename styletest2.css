@@ -79,3 +79,13 @@
   .producent-h2{
     margin-left: 60px;
   }
+
+  .producent-foelger{
+    display: flex;
+    justify-content: center;
+  }
+
+  .producent-billede{
+    width: 300px;
+    margin-left: 10px;
+  }
