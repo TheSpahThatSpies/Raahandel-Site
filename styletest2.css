@@ -51,17 +51,16 @@ body{
     grid-area: side;
     position: fixed;
     top: 0%;
-    width: 12.21em;
+    width: 14.21em;
     height: 1000px;
     border-right: solid rgba(158,156,158,0.49);
     margin-top: 80px;
-     
-    
+        
   }
   
   .content {
     grid-area: main;
-    
+    margin-right: 100px;
   }
 
   .headlinks {
