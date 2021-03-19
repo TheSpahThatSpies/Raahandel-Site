@@ -1,0 +1,65 @@
+ 
+
+ 
+ .container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-gap: 2px 2px;
+    grid-template-areas:
+      "head head head"
+      "side main main";
+      
+  }
+  
+  .header {
+    grid-area: head;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    
+  }
+  
+  
+
+  .sidebar {
+    grid-area: side;
+  }
+  
+  .content {
+    grid-area: main;
+  }
+
+   .logo {
+    width: auto;
+    height: 50px;
+    
+ }
+ 
+ 
+  .nyheder {
+      display: flex;
+      flex-direction: row;
+      margin-top: 20px;
+  }
+
+
+
+  /* Generic styles for demo purposes
+  -------------------------------------- */
+  .container {
+    font-family: Helvetica, Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .container > * {
+    background-color: #ccc;
+    padding: 1em;
+  }
+  
+  /* Typically, you wouldn't specify a height or min-height on this, instead allowing your actual content (i.e., text, images, etc.) to dictate the height of your content area. But since this example has very minimal content, I've set a min-height to mimic a taller content area. */
+  .content {
+    min-height: 1000px;
+  }
+  
