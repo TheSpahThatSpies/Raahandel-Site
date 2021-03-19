@@ -71,18 +71,32 @@
   }
 
   .producent-h1{
-    margin-left: 50px;
+    margin-left: 25px;
     margin-top: 20x;
     margin-bottom: 40px;
   }
 
+  .producent{
+    text-align: center;
+  }
+
   .producent-h2{
-    margin-left: 60px;
+    margin-left: 40px;
+  }
+
+  .producent-h3{
+  margin-left: 10px;
+  margin-bottom: -10px;
+  }
+
+  .producent-p{
+    margin-left: 5px;
   }
 
   .producent-foelger{
     display: flex;
     justify-content: center;
+    margin-bottom: 250px;
   }
 
   .producent-billede{
