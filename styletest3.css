@@ -18,17 +18,11 @@ body{
 
 
  .container {
-    display: grid;
-    grid-template-columns: 1fr ;
-    grid-gap: 2px 2px;
-    grid-template-areas:
-      "head head head"
-      "side main main";
+    display: block
       
   }
   
   .header {
-    grid-area: head;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -48,7 +42,6 @@ body{
     }
 
   .sidebar {
-    grid-area: side;
     position: fixed;
     top: 0%;
     width: 14.21em;
@@ -59,7 +52,7 @@ body{
   }
   
   .content {
-    grid-area: main;
+    margin-left: 300px;
     
     
   }
