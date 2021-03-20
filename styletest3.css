@@ -28,7 +28,9 @@ body{
   .kline {
     width: 70px;
   }
-
+  .fline {
+    width: 25px;
+  }
   h2 {
     font-weight: bold;
   }
