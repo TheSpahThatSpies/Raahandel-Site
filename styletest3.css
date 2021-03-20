@@ -3,6 +3,7 @@
   margin: 0%;
   font-family: "Montserrat", sans-serif;
   color: #3A3838;
+  
 }
 
 body{
@@ -70,7 +71,7 @@ body{
     width: 14.21em;
     height: 1000px;
     border-right: solid rgba(158,156,158,0.49);
-    margin-top: 50px;
+    margin-top: 90px;
     background-color: #EFE9DB;
         
   }
@@ -113,6 +114,9 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   
   .kategorier {
@@ -166,11 +170,7 @@ body{
   /* Generic styles for demo purposes
   -------------------------------------- */
     
-  .container > * {
-    background-color: #EFE9DB;
-    padding: 1em;
-  }
-  
+   
   /* Typically, you wouldn't specify a height or min-height on this, instead allowing your actual content (i.e., text, images, etc.) to dictate the height of your content area. But since this example has very minimal content, I've set a min-height to mimic a taller content area. */
   .content {
     min-height: 1000px;
