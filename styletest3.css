@@ -31,6 +31,12 @@ body{
   .fline {
     width: 25px;
   }
+  .nline {
+    width: 45px;
+    margin-top: 0px;
+  }
+
+  }
   h2 {
     font-weight: bold;
   }
@@ -80,6 +86,7 @@ body{
   
   .content {
     margin-left: 300px;
+    min-height: 1000px;
   }
 
   .bg {
@@ -154,6 +161,11 @@ body{
     margin-top: 20px;
   }
 
+  .overskriftnyheder {
+    margin-top: 40px;
+    margin-bottom: 5px;
+  }
+
   .nytproducent {
     display: flex;
       flex-direction: row;
@@ -166,15 +178,6 @@ body{
     display: flex;
     flex-direction: column;
     padding: 5px;
-    
   }
 
-  /* Generic styles for demo purposes
-  -------------------------------------- */
-    
-   
-  /* Typically, you wouldn't specify a height or min-height on this, instead allowing your actual content (i.e., text, images, etc.) to dictate the height of your content area. But since this example has very minimal content, I've set a min-height to mimic a taller content area. */
-  .content {
-    min-height: 1000px;
-  }
   
