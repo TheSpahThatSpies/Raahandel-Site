@@ -172,6 +172,35 @@
   font-size: 18px;
 }
 
+.marked-nuvaerende{
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #fefefe;
+  border: 1px solid black;
+}
+
+.marked-h2{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.marked-grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.marked-griditem {
+  background-color: #fefefe;
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+.marked-gridtext{
+  font-size: 20px;
+}
+
 .bg {
   background-image: url(https://raahandel.dk/wp-content/uploads/background-pattern-big.svg);
   background-repeat: repeat;
