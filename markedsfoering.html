@@ -8,20 +8,21 @@
     <link rel="stylesheet" href="styletest2.css">
 </head>
 <body class="producent-body">
-    <div class="container">
-        <header class="header">
-            <img class="logo" src="images/nav-logo.svg" alt="Logo">
-            <div class="headlinks"><a href="">VARER</a>
-                <a href="">PRODUCENTER</a>
-                <a href="">MIN KONTO</a>
-                <a href="">LEVERINGSDAG</a>
-                <div class="basket">
-                    <a href="">0,00</a><img src="" alt="Indkøbskurv">
-                </div>
-            </div>
-            
-        </header>
-    </div>
+    <header class="header">
+        <div class="logo">
+            <img src="images/nav-logo.svg" alt="Logo"> 
+            <h2>RÅHANDEL</h2>
+        </div>
+        <div class="headlinks">
+            <a href="">VARER</a>
+            <a href="">PRODUCENTER</a>
+            <a href="">MIN KONTO</a>
+            <a href="">LEVERINGSDAG</a>
+            <a href="">0,00 KR.</a>
+            <img class="kurvimg" src="kurv-alt.svg" alt="Indkøbskurv">
+        </div>
+    </header>
+
     <nav class="marked-nav">
         <a class="marked-link" href="#">
             <img class="marked-sidebar-png" src="images/ordrer.png" alt="varer">
@@ -69,6 +70,36 @@
                     </div>
                 </div>
             </section>
+        <section class="marked-bottom">
+            <div class="marked-opret">
+                <h2 class="marked-h2">Opret kampagne</h2>
+                <form class="marked-form">
+                    <h3 class="marked-h3">Kampagnetype:</h3>
+                    <div class="marked-checkpar">
+                      <input class="marked-checkbox" type="radio" name="typevalg" id="marked-tick"/>
+                      <label class="marked-label" for="marked-tick">Sæson</label>
+                    </div>
+                    <div class="marked-checkpar">
+                        <input class="marked-checkbox" type="radio" name="typevalg"  id="marked-tick"/>
+                        <label class="marked-label" for="marked-tick">Udsalg</label>
+                    </div>
+                    <div class="marked-checkpar">
+                        <input class="marked-checkbox" type="radio" name="typevalg" id="marked-tick"/>
+                        <label class="marked-label" for="marked-tick">Fødselsdag</label>
+                    </div>
+                    <div class="marked-checkpar">
+                        <input class="marked-checkbox" type="radio" name="typevalg" id="marked-tick"/>
+                        <label class="marked-label" for="marked-tick">Andet</label>
+                    </div>
+                </form>
+                <form class="marked-form">
+                    <h3 class="marked-h3">Kampagnenavn:</h3>
+                    <input class="marked-navn" type="text" placeholder="Skriv her...">
+                </form>
+                    <h3 class="marked-h3">Beskrivelse:</h3>
+                    <textarea class="marked-beskrivelse" rows="2" cols="25" placeholder="Skriv her..."></textarea>
+            </div>
+        </section>
         <div class="bg"></div>
     </main>
 </body>

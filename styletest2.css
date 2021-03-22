@@ -1,23 +1,63 @@
- .container {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-gap: 2px 2px;
-    grid-template-areas:
-      "head head head"
-      "side main main";
-      
+  body{
+    background-color: #EFE9DB;
+  }
+  
+  .container {
+    display: block;
   }
   
   .header {
-    grid-area: head;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content:space-between;
-    
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    -webkit-box-shadow: 0px 4px 33px 1px rgba(209,209,209,1);
+    -moz-box-shadow: 0px 4px 33px 1px rgba(209,209,209,1);
+    box-shadow: 0px 4px 33px 1px rgba(209,209,209,1);
+    border-bottom: solid rgba(158,156,158,0.49);
+    background-color: #EFE9DB;
+    }
+
+  .kurvimg{
+    width: 20px;
+    margin-left: 10px;
   }
-  
-  
+
+  .headlinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 40px;
+  }
+    
+  .headlinks a{
+    margin-left: 50px;
+     
+  }
+
+  .logo img {
+   width: auto;
+   height: 37px;
+   padding-right: 10px;
+  }
+
+  .logo h2 {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+  }
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
   .sidebar {
     grid-area: side;
@@ -38,26 +78,6 @@
       display: flex;
       flex-direction: row;
       margin-top: 20px;
-  }
-
-
-
-  /* Generic styles for demo purposes
-  -------------------------------------- */
-  .container {
-    font-family: Helvetica, Arial, sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .container > * {
-    background-color: #ccc;
-    padding: 1em;
-  }
-  
-  /* Typically, you wouldn't specify a height or min-height on this, instead allowing your actual content (i.e., text, images, etc.) to dictate the height of your content area. But since this example has very minimal content, I've set a min-height to mimic a taller content area. */
-  .content {
-    min-height: 1000px;
   }
   
 
@@ -118,8 +138,8 @@
 
   /* Markedsføring */
   .marked-nav{
-    margin-top: 83px;
-    height: 90%;
+    margin-top: 61px;
+    height: 100%;
     width: 160px;
     position: fixed;
     z-index: 1; /* Lægger øverst */
@@ -199,6 +219,63 @@
 
 .marked-gridtext{
   font-size: 20px;
+}
+
+.marked-bottom{
+  margin-top: 75px;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+}
+
+.marked-opret{
+  background-color: #fefefe;
+  border: 1px solid black;
+}
+
+.marked-checkbox{
+  width: 1.3em;
+  height: 1.3em;
+  background-color: #fefefe;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid black;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.marked-checkbox:checked {
+  background-color: #4C84AD;
+}
+
+.marked-checkpar{
+  margin-right: 5%;
+}
+
+.marked-form{
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.marked-h3{
+  margin-top: 0px;
+  margin-right: 30px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+.marked-navn{
+  font-size: large;
+}
+
+.marked-beskrivelse{
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 500px;
+  height: 200px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .bg {
