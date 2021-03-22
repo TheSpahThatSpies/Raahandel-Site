@@ -225,6 +225,7 @@
   margin-top: 75px;
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 75px;
   display: flex;
 }
 
@@ -269,13 +270,36 @@
   font-size: large;
 }
 
+.marked-splitup{
+  display: flex;
+}
+
 .marked-beskrivelse{
   margin-top: 5px;
   margin-left: 10px;
+  margin-bottom: 30px;
   width: 500px;
   height: 200px;
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
+  resize: none;
+}
+
+.marked-tid{
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.marked-knap{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 41%;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #4C84AD;
+  color: #EFE9DB;
 }
 
 .bg {
