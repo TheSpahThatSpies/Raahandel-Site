@@ -218,4 +218,115 @@ margin-bottom: 20px;
 
   /* styling af produkt side */
 
+  /* styling af produkt */
+  .produktcontent {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 400px;
+  }
+  .enkelt-produkt{ 
+    background-color:#F5F5F5;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+    width: 400px; 
+  }
+
+  .priskarton {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 8px;
+  }
+
+  .produkt-producentnavn {
+    margin-top: 8px;
+  }
+  /* styling af produkt tekst */
+
+  .produkt-tekst {
+    background-color: #F5F5F5;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    width: 400px;
+    padding: 10px;
+  }
+
+  .produkt-tekst-icon {
+    width: 20px;
+  }
+
+
+  /* Chat bokst styling */
   
+  /* Button used to open the chat form - fixed at the bottom of the page */
+
+  *{box-sizing: border-box;}
+  .open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* tekst-felt */
+.form-container textarea {
+  width: 100%;
+  padding: 0px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* send knap */
+.form-container .btn {
+  background-color: #16639f;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  
+}
+
+/* luk knap farve */
+.form-container .cancel {
+  background-color: #3A3838;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
