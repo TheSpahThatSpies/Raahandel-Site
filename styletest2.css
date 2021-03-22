@@ -115,3 +115,52 @@
     width: 300px;
     margin-left: 10px;
   }
+
+  /* Markedsføring */
+  .marked-nav{
+    margin-top: 83px;
+    height: 90%;
+    width: 160px;
+    position: fixed;
+    z-index: 1; /* Lægger øverst */
+    top: 0;
+    left: 0;
+    background-color: #EFE9DB;
+    overflow-x: hidden; /* Forbliver hvor den er hvis der scrolles. */
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: #3A3838;
+    outline-style: solid;
+    outline-width: 1px;
+}
+
+/* Skubber alt i main til højre */
+.marked-main{
+    margin-left: 190px;
+}
+
+.marked-sidebar-png{
+    height: 100px;
+    width: auto;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.markedfoering-knap{
+  margin-top: 20px;
+  margin-left: 26px;
+  margin-right: 37px;
+  padding-bottom: 3px; 
+}
+
+.marked-sidebar-svg{
+  height: 70px;
+  width: auto;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.marked-link{
+  text-decoration: none;
+}
