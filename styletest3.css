@@ -10,9 +10,9 @@ body{
   background-color: #EFE9DB;
 }
 
-  .overskriftprodu {
-  margin-top: 50px;
-  margin-bottom: 20px;
+.overskriftprodu {
+margin-top: 50px;
+margin-bottom: 20px;
 } 
 
 .overskriftnyheder {
@@ -88,8 +88,8 @@ body{
   }
 
   .content {
-    margin-left: 300px;
     min-height: 1000px;
+    margin-left: 300px;
   }
 
   .bg {
@@ -157,12 +157,12 @@ body{
       margin-top: 20px;
       justify-content: space-evenly;
   }
-
+  
   .nyeprodukter {
-    background-color: red;
+    background-color:#F5F5F5;
     display: flex;
     flex-direction: column;
-    padding: 5px;
+    padding-bottom: 5px;
   }
   
   .nyeprodukter p {
@@ -185,10 +185,33 @@ body{
   }
 
   .nyefraproducent {
-    background-color: red;
+    background-color: #F5F5F5;
     display: flex;
     flex-direction: column;
-    padding: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    width: 150px;   
   }
 
-  
+  .kurv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .i-kurv{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    margin-top: -20px;
+    background-color: #16639f;
+    border: none;
+    border-radius: 1.5px 1.5px 1.5px 1.5px;
+    cursor: pointer;
+  }
+
+  .i-kurv img{
+    width: 32px;
+    height: 32px;
+  }
