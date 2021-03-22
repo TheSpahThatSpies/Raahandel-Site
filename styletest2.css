@@ -155,12 +155,32 @@
 }
 
 .marked-sidebar-svg{
-  height: 70px;
+  height: 60px;
   width: auto;
   margin-left: 15px;
   margin-top: 10px;
+  margin-bottom: -10px;
 }
 
 .marked-link{
   text-decoration: none;
+}
+
+.marked-sidebar-text{
+  margin-left: -17px;
+  color: #4C84AD;
+  font-size: 18px;
+}
+
+.bg {
+  background-image: url(https://raahandel.dk/wp-content/uploads/background-pattern-big.svg);
+  background-repeat: repeat;
+  background-size: 40% auto;
+  position: fixed;
+  top: 0;
+  opacity: .05;
+  width: 100%;
+  height: 500%;
+  z-index: -1;
+  margin-left: -300px;
 }
