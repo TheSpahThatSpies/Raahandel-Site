@@ -302,6 +302,11 @@
   color: #EFE9DB;
 }
 
+.marked-forklar{
+  background-color: #fefefe;
+  border: 1px solid black;
+}
+
 .bg {
   background-image: url(https://raahandel.dk/wp-content/uploads/background-pattern-big.svg);
   background-repeat: repeat;
