@@ -334,3 +334,16 @@ margin-bottom: 20px;
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
+
+.knap-til-producent {
+  margin-top: 20px;
+}
+
+.knap-knap {
+  background-color: #16639f;
+  color: #EFE9DB;
+  border-radius: 5px;
+  border-style: none;
+  width: 150px;
+  height: 30px;
+}
