@@ -1,0 +1,336 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Montserrat", sans-serif;
+  color: #3A3838;
+  
+}
+
+body{
+  background-color: #EFE9DB;
+}
+
+.overskriftprodu {
+margin-top: 50px;
+margin-bottom: 20px;
+} 
+
+.overskriftnyheder {
+  margin-bottom: 50px;
+}
+/*linjer under overskrifter*/
+
+  hr{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-top: 4px solid #3A3838;
+  }
+  .kline {
+    width: 70px;
+  }
+  .fline {
+    width: 25px;
+  }
+  .nline {
+    width: 45px;
+    margin-top: 0px;
+  }
+
+  h2 {
+    font-weight: bold;
+  }
+  
+  .iconf {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #6E9CC2;
+    font-weight:400;
+  }
+
+ .container {
+    display: block;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    -webkit-box-shadow: 0px 4px 33px 1px rgba(209,209,209,1);
+    -moz-box-shadow: 0px 4px 33px 1px rgba(209,209,209,1);
+    box-shadow: 0px 4px 33px 1px rgba(209,209,209,1);
+    border-bottom: solid rgba(158,156,158,0.49);
+    background-color: #EFE9DB;
+    }
+  
+    .kurvimg{
+      width: 20px;
+      margin-left: 10px;
+    }
+
+  .sidebar {
+    position: fixed;
+    left: 0;
+    width: 14.21em;
+    height: 1000px;
+    border-right: solid rgba(158,156,158,0.49);
+    margin-top: 63px;
+    background-color: #EFE9DB; 
+  }
+  
+  .sidebarryk{
+    margin-left: 20px;
+  }
+
+  .content {
+    min-height: 1000px;
+    margin-left: 300px;
+  }
+
+  .bg {
+    background-image: url(https://raahandel.dk/wp-content/uploads/background-pattern-big.svg);
+    background-repeat: repeat;
+    background-size: 40% auto;
+    position: fixed;
+    top: 0;
+    opacity: .05;
+    width: 100%;
+    height: 500%;
+    z-index: -1;
+    margin-left: -300px;
+  }
+
+  .headlinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 40px;
+  }
+  
+  .headlinks a{
+    margin-left: 50px;
+    
+  }
+
+  .logo img {
+   width: auto;
+   height: 37px;
+   padding-right: 10px;
+  }
+
+  .logo h2 {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+  }
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .kategorier {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: -20px;
+  }
+
+  .katimg {
+    width: 55px;
+    height: auto;
+  }
+
+  .filter{
+    margin-left: 15px;
+  }
+  .nyheder {
+      display: flex;
+      flex-direction: row;
+      margin-top: 20px;
+      justify-content: space-evenly;
+  }
+  
+  .nyeprodukter {
+    background-color:#F5F5F5;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+  }
+  
+  .nyeprodukter p {
+    margin-bottom: 2px;
+    }
+  .prisialt {
+    margin-top: 20px;
+  }
+
+  .overskriftnyheder {
+    margin-top: 40px;
+    margin-bottom: 5px;
+  }
+
+  .nytproducent {
+    display: flex;
+      flex-direction: row;
+      margin-top: 20px;
+      justify-content: space-evenly;
+  }
+
+  .nyefraproducent {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+    font-size: 12px;
+    width: 150px;   
+  }
+
+  .kurv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .i-kurv{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    margin-top: -20px;
+    background-color: #16639f;
+    border: none;
+    border-radius: 1.5px 1.5px 1.5px 1.5px;
+    cursor: pointer;
+  }
+
+  .i-kurv img{
+    width: 32px;
+    height: 32px;
+  }
+
+  /* styling af produkt side */
+
+  /* styling af produkt */
+  .produktcontent {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 400px;
+  }
+  .enkelt-produkt{ 
+    background-color:#F5F5F5;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+    width: 400px; 
+  }
+
+  .priskarton {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 8px;
+  }
+
+  .produkt-producentnavn {
+    margin-top: 8px;
+  }
+  /* styling af produkt tekst */
+
+  .produkt-tekst {
+    background-color: #F5F5F5;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    width: 400px;
+    padding: 10px;
+  }
+
+  .produkt-tekst-icon {
+    width: 20px;
+  }
+
+
+  /* Chat boks styling */
+  
+    .chat-popup {
+      position: fixed;
+      bottom: 20px;
+      right: 26px;
+      width: 290px;
+  }
+
+
+  .open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* styling og display af popup */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  }
+
+/* styling af containeren */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* tekst-felt */
+.form-container textarea {
+  width: 100%;
+  padding: 0px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* tekst område styling */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* send knap */
+.form-container .btn {
+  background-color: #16639f;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+}
+
+/* luk knap farve */
+.form-container .cancel {
+  background-color: #3A3838;
+}
+
+/* knap hover effekt */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}

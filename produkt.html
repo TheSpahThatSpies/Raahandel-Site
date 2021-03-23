@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="dk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styletest3.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        </div>
+        <aside class="sidebar">
+        <div class="sidebarryk">
+            <h2 class="iconf">ikonforklaring</h2>
+            <h2 class="overskriftkat">Kategorier</h2>
+            <hr class="kline">
+
+         <div class="kategorier">
+            <a href=""><img class="katimg" src="frugt.png" alt="Frugt og Grønt"></a>
+            <a href=""><img class="katimg" src="kod.png" alt="Kød"></a>    
+            <a href=""><img class="katimg" src="mejeri.png" alt="Æg og Mejeri"></a>
+            <a href=""><img class="katimg" src="bageri.png" alt="Brød og Bageri"></a>
+            <a href=""><img class="katimg" src="drik.png" alt="Drikkevarer"></a>
+            <a href=""><img class="katimg" src="diverse.png" alt="Diverse"></a>
+        </div>
+        
+            <h2>Filter</h2>
+            <hr class="fline">
+            <h3>Ikoner</h3>
+            <div class="filter">
+            <ul>
+                <li>Økologisk</li>
+                <li>Vegansk</li>
+                <li>Glutenfri</li>
+                <li>Lactosefri</li>
+                <li>MSC</li>
+                <li>Sæsonvare</li>
+                <li>Frostvare</li>
+            </ul>
+            </div>
+        </div>
+        </aside>
+    <header class="header">
+        <div class="logo">
+            <img src="images/nav-logo.svg" alt="Logo"> 
+            <h2>RÅHANDEL</h2>
+        </div>
+        <div class="headlinks">
+            <a href="">VARER</a>
+            <a href="">PRODUCENTER</a>
+            <a href="">MIN KONTO</a>
+            <a href="">LEVERINGSDAG</a>
+            <a href="">0,00 KR.</a>
+            <img class="kurvimg" src="kurv-alt.svg" alt="Indkøbskurv">
+        </div>
+    </header>
+        
+      <main class="produktcontent">
+            <div class="produkt">
+                <div class="enkelt-produkt">
+                    <img src="plante.JPG" alt="produkt">
+                    <p class="produkt-producentnavn">6 x 75g / Microgrønt</p>
+                   
+                    <p class="priskarton">200,59 kr. / karton</p>
+                    <div class="kurv">
+                        <p class="prisenhed">33,43 kr. / stk</p>
+                        <button class="i-kurv">
+                        <img src="https://raahandel.dk/wp-content/uploads/kurv.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="produkt-tekst">
+                <div class="produkt-tekst-producent">
+                    <p>Nabo Farm</p>
+                </div>
+                <div class="produkt-tekst-produkt">
+                    <h2>Solsikkeskud</h2>
+                </div>
+                <div class="produkt-tekst-info">
+                    <p>6 x 75 g / mikrogrønt</p>
+                </div>
+                <div class="produkt-tekst-icon">
+                    <img src="https://raahandel.dk/wp-content/uploads/kol.svg" alt="">
+                </div> 
+                <div class="produkt-tekst-produktinfo">
+                    <p>Lorem ipsum dolor sit amet, 
+                        consetetur sadipscing elitr, 
+                        sed diam nonumy eirmod tempor 
+                        invidunt ut labore et dolore 
+                        magna aliquyam erat, sed diam voluptua. 
+                        At vero eos et accusam et justo duo dolores 
+                        et ea rebum. Stet clita kasd gubergren, 
+                        no sea takimata sanctus est Lorem ipsum dolor 
+                        sit amet. Lorem ipsum dolor sit amet, 
+                        consetetur sadipscing elitr, sed diam 
+                        nonumy eirmod tempor invidunt ut labore 
+                        et dolore magna aliquyam erat, sed diam 
+                        voluptua. At vero eos et accusam et justo.
+                        <br><br>
+                        Lorem ipsum dolor sit amet, consetetur 
+                        sadipscing elitr, sed diam nonumy eirmod 
+                        tempor invidunt ut labore et dolore magna 
+                        aliquyam erat, sed diam voluptua. 
+                        At vero eos et accusam et justo duo 
+                        dolores et ea rebum. Stet clita kasd 
+                        gubergren, no sea takimata sanctus 
+                        est Lorem ipsum dolor sit amet. 
+                        Lorem ipsum dolor sit amet, 
+                        consetetur sadipscing elitr, 
+                        sed diam nonumy eirmod tempor 
+                        invidunt ut labore et dolore magna 
+                        aliquyam erat, sed diam voluptua. 
+                        At vero eos et accusam et justo.
+                    </p>
+                </div>   
+            </div>
+
+            <button class="open-button" onclick="openForm()">Spørgsmål til producenten?</button>
+
+            <div class="chat-popup" id="myForm">
+                <form action="/action_page.php" class="form-container">
+                  <h3>Send en besked til producenten</h3>
+              
+                  <label for="msg"></label>
+                  <textarea placeholder="Skriv din besked her.." name="msg" required></textarea>
+              
+                  <button type="submit" class="btn">Send</button>
+                  <button type="button" class="btn cancel" onclick="closeForm()">Luk</button>
+                </form>
+              </div>
+            
+            <div class="bg"></div>
+        </main>        
+    </div>
+    
+    <script>
+        
+        function openForm() {
+          document.getElementById("myForm").style.display = "block";
+        }
+        
+        function closeForm() {
+          document.getElementById("myForm").style.display = "none";
+        }
+        </script>
+
+</body>
+</html>
