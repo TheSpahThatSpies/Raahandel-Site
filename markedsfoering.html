@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="dk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Råhandel - Din online markedsplads</title>
+    <link rel="stylesheet" href="styletest2.css">
+</head>
+<body class="producent-body">
+    <header class="header">
+        <div class="logo">
+            <img src="images/nav-logo.svg" alt="Logo"> 
+            <h2>RÅHANDEL</h2>
+        </div>
+        <div class="headlinks">
+            <a href="">VARER</a>
+            <a href="">PRODUCENTER</a>
+            <a href="">MIN KONTO</a>
+            <a href="">LEVERINGSDAG</a>
+            <a href="">0,00 KR.</a>
+            <img class="kurvimg" src="kurv-alt.svg" alt="Indkøbskurv">
+        </div>
+    </header>
+
+    <nav class="marked-nav">
+        <a class="marked-link" href="#">
+            <img class="marked-sidebar-png" src="images/ordrer.png" alt="varer">
+        </a>
+        <a class="marked-link" href="#">
+            <img class="marked-sidebar-png" src="images/varer.png" alt="ordrer">
+        </a>
+        <a class="marked-link" href="#">
+            <div class="markedfoering-knap">
+                <img class="marked-sidebar-svg" src="images/markedsfoering.svg" alt="markedsfoering">
+                <p class="marked-sidebar-text">Markedsføring</p>
+            </div>
+        </a>
+    </nav>
+    <main class="marked-main">
+        <h1>Markedsføring</h1>
+            <section class="marked-nuvaerende">
+                <h2 class="marked-h2">Nuværende kampagner</h2>
+                <!-- Øverste række -->
+                <div class="marked-grid">
+                    <div class="marked-griditem">
+                        <p class="marked-gridtext">Kampagnenavn</p>
+                    </div>
+                    <div class="marked-griditem">
+                        <p class="marked-gridtext">Kampagnetype</p>
+                    </div>
+                    <div class="marked-griditem">
+                        <p class="marked-gridtext">Beskrivelse</p>
+                    </div>
+                    <div class="marked-griditem">
+                        <p class="marked-gridtext">Tidspunkt</p>
+                    </div>
+                <!-- Nederste række -->
+                    <div class="marked-griditem">
+                        <p class="marked-gridtext">Honningesæson</p>
+                    </div>
+                    <div class="marked-griditem">
+                        <p class="marked-gridtext">Sæson</p>
+                    </div>
+                    <div class="marked-griditem">
+                        <p class="marked-gridtext">Det er den tid på året hvor blomster springer ud, og dermed også den tid på året hvor bierne laver allermest honning. Derfor kan du hos Henriks honning nu få 20% rabat på dit køb af honning.</p>
+                    </div>
+                    <div class="marked-griditem">
+                        <p class="marked-gridtext">Starter d 28. maj 2020 kl. 08:00 Slutter d 7. juni 2020 kl. 00:00</p>
+                    </div>
+                </div>
+            </section>
+        <section class="marked-bottom">
+            <div class="marked-opret">
+                <h2 class="marked-h2">Opret kampagne</h2>
+                <form class="marked-form">
+                    <h3 class="marked-h3">Kampagnetype:</h3>
+                    <div class="marked-checkpar">
+                      <input class="marked-checkbox" type="radio" name="typevalg" id="marked-tick"/>
+                      <label class="marked-label" for="marked-tick">Sæson</label>
+                    </div>
+                    <div class="marked-checkpar">
+                        <input class="marked-checkbox" type="radio" name="typevalg"  id="marked-tick"/>
+                        <label class="marked-label" for="marked-tick">Udsalg</label>
+                    </div>
+                    <div class="marked-checkpar">
+                        <input class="marked-checkbox" type="radio" name="typevalg" id="marked-tick"/>
+                        <label class="marked-label" for="marked-tick">Fødselsdag</label>
+                    </div>
+                    <div class="marked-checkpar">
+                        <input class="marked-checkbox" type="radio" name="typevalg" id="marked-tick"/>
+                        <label class="marked-label" for="marked-tick">Andet</label>
+                    </div>
+                </form>
+                <form class="marked-form">
+                    <h3 class="marked-h3">Kampagnenavn:</h3>
+                    <input class="marked-navn" type="text" placeholder="Skriv her...">
+                </form>
+                <h3 class="marked-h3">Beskrivelse:</h3>
+                <textarea class="marked-beskrivelse" rows="2" cols="25" placeholder="Skriv her..."></textarea>
+                <div class="marked-tid">
+                    <h3 class="marked-h3">Start dato:</h3>
+                    <input type="datetime-local">
+                </div>
+                <div class="marked-tid">
+                    <h3 class="marked-h3">Slut dato:</h3>
+                    <input type="datetime-local">
+                </div>
+                <button class="marked-knap">Opret og gem</button>
+            </div>
+            <p>Kampagne funktionen gør det muligt for dig at have midlertidige tilbud på dine varer.</p>
+        </section>
+        <div class="bg"></div>
+    </main>
+</body>
+</html>
